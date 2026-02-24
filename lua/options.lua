@@ -74,4 +74,18 @@ vim.o.confirm = true
 -- For bufferline.nvim, this is required
 vim.o.termguicolors = true
 
+-- ADDED BY USER
+-- Add Vertical Colums at 80 and 100
+vim.opt.colorcolumn = '80,100'
+
+-- Indentation settings
+vim.opt.tabstop = 4 -- A tab character appears as 4 spaces
+vim.opt.shiftwidth = 4 -- Indent operations use 4 spaces
+vim.opt.softtabstop = 4 -- <Tab> inserts 4 spaces
+vim.opt.expandtab = true -- Convert tabs to spaces
+
+-- Sensible indentation behavior
+vim.opt.autoindent = true
+vim.opt.smartindent = true
+
 -- vim: ts=2 sts=2 sw=2 et
